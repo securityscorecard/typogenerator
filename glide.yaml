@@ -1,0 +1,8 @@
+package: github.com/securityscorecard/typogenerator
+import:
+- package: github.com/Zenithar/typogenerator
+  repo: git@github.com:securityscorecard/typogenerator
+  subpackages:
+  - helpers
+  - mapping
+  - strategy
