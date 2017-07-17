@@ -1,0 +1,21 @@
+hash: 4ac4ca2c7f9728de0eae97a79cfc585fa84893e7c57ae272524ba666bb3b3479
+updated: 2017-07-17T12:31:12.51904323-04:00
+imports:
+- name: github.com/hduplooy/gocsv
+  version: de0e179839017478e6f57cac9d8105a020817c26
+- name: github.com/mvdan/xurls
+  version: 7c6b429873f09f77d62124294d43bb6dd17be941
+- name: github.com/namsral/flag
+  version: f522f7fa700925bcdf4ee0daf0952167618242ef
+- name: github.com/Zenithar/typogenerator
+  version: 65e0917caad6f8599a1d800bcc4e5e6044e7ec0c
+  repo: git@github.com:securityscorecard/typogenerator
+  subpackages:
+  - helpers
+  - mapping
+  - strategy
+- name: golang.org/x/net
+  version: f315505cf3349909cdf013ea56690da34e96a451
+  subpackages:
+  - idna
+testImports: []
